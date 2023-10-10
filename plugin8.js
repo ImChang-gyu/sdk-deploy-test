@@ -14,14 +14,14 @@
     i.style.zIndex = 1000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '<div id="ntbot-plugin-script" style="position:fixed!important;right:0!important;bottom:0!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:fixed!important;height:100%!important;width:100%!important;border:none!important;right:24px!important;"></iframe></div>');
+        '<div id="ntbot-plugin-script" style="position:fixed!important;right:0!important;bottom:0!important;width:450px!important;height:900px!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
         var e = t.contentDocument || t.contentWindow.document;
         e.open(),
           e.write(
-            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist2/assets/index-72da60d0.js" charset="UTF-8"></script>'
+            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist3/assets/index-7cd520de.js" charset="UTF-8"></script>'
           ),
           e.write(
             '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
