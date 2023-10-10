@@ -11,10 +11,10 @@
       (n.id = "ntbot-plugin"), document.body.appendChild(n);
     }
     var i = document.getElementById("ntbot-plugin");
-    i.style.zIndex = 10000000000;
+    i.style.zIndex = 1000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '<iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe>');
+        '<div id="ntbot-plugin-script" style="position:fixed!important;right:0!important;bottom:0!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:fixed!important;height:100%!important;width:100%!important;border:none!important;right:24px!important;"></iframe></div>');
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
