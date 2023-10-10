@@ -14,7 +14,7 @@
     i.style.zIndex = 1000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '<div id="ntbot-plugin-script" style="position:fixed!important;right:0!important;bottom:0!important;width:450px!important;height:900px!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
+        '<div id="ntbot-plugin-script" style="position:fixed!important;right:24px!important;bottom:0!important;width:450px!important;height:900px!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
