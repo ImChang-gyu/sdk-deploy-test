@@ -11,6 +11,7 @@
       (n.id = "ntbot-plugin"), document.body.appendChild(n);
     }
     var i = document.getElementById("ntbot-plugin");
+    i.style.zIndex = 10000000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
         '<iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe>');
