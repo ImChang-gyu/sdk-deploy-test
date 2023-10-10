@@ -6,15 +6,15 @@
       e
     ) && window.navigator.cookieEnabled)
   ) {
-    if (!document.getElementById("ch-plugin")) {
+    if (!document.getElementById("ntbot-plugin")) {
       var n = document.createElement("div");
-      (n.id = "ch-plugin"), document.body.appendChild(n);
+      (n.id = "ntbot-plugin"), document.body.appendChild(n);
     }
-    var i = document.getElementById("ch-plugin");
+    var i = document.getElementById("ntbot-plugin");
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '      <div id="ch-plugin-entry"></div>      <div id="ch-plugin-script" style="display:none;">        <iframe id="ch-plugin-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe>      </div>    ');
-    var t = document.getElementById("ch-plugin-script-iframe"),
+        '<iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe>');
+    var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
         var e = t.contentDocument || t.contentWindow.document;
@@ -23,7 +23,7 @@
             '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist2/assets/index-72da60d0.js" charset="UTF-8"></script>'
           ),
           e.write(
-            '<html lang="en"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
+            '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
           ),
           e.close(),
           (r = !0);
