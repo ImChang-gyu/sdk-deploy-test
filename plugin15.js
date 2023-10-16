@@ -14,14 +14,14 @@
     i.style.zIndex = 1000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '<div class="ntbot-entry" /><div id="ntbot-plugin-script" style="position:fixed!important;right:24px!important;bottom:0!important;width:420px!important;height:900px!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
+        '<div class="ntbot-entry"></di><div id="ntbot-plugin-script" style="position:fixed!important;right:24px!important;bottom:0!important;width:420px!important;height:900px!important;"><iframe id="ntbot-script-iframe" title="Channel chat" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
         var e = t.contentDocument || t.contentWindow.document;
         e.open(),
           e.write(
-            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist6/assets/index-6b97dbfb.js" charset="UTF-8"></script>'
+            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist7/assets/index-01465313.js" charset="UTF-8"></script>'
           ),
           e.write(
             '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
