@@ -21,7 +21,7 @@
         var e = t.contentDocument || t.contentWindow.document;
         e.open(),
           e.write(
-            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist10/assets/index-4cc3e6ac.js" charset="UTF-8"></script>'
+            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist11/assets/index-38765b9f.js" charset="UTF-8"></script>'
           ),
           e.write(
             '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
