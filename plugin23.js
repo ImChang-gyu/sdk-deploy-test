@@ -14,14 +14,14 @@
     i.style.zIndex = 1000000;
     i.classList.add("notranslate"),
       (i.innerHTML +=
-        '<div class="ntbot-entry"></div><div id="ntbot-plugin-script" style="position:fixed!important;right:24px!important;bottom:90px!important;width:420px!important;height:750px!important;"><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
+        '<style>.hidden{ visibility: hidden; }</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" style="position:fixed!important;right:24px!important;bottom:90px!important;width:420px!important;height:750px!important;"><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>');
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
         var e = t.contentDocument || t.contentWindow.document;
         e.open(),
           e.write(
-            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist14/assets/index-622f046a.js" charset="UTF-8"></script>'
+            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/dist15/assets/index-4d956b18.js" charset="UTF-8"></script>'
           ),
           e.write(
             '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
