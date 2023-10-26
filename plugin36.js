@@ -13,7 +13,7 @@
     var i = document.getElementById("ntbot-plugin");
     i.style.zIndex = 1000000;
     i.innerHTML +=
-      '<style>.hidden{ visibility: hidden; }</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" class="hidden" style="position:fixed!important;right:24px!important;bottom:110px!important;width:420px!important;height:750px!important;"><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
+      '<style>.hidden{ visibility: hidden; }</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" class="hidden" style="position:fixed!important;right:24px!important;bottom:110px!important;width:420px!important;height:750px!important;@media(max-width:444:px){width:100%!important;right:0px!important}" ><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
