@@ -13,7 +13,7 @@
     var i = document.getElementById("ntbot-plugin");
     i.style.zIndex = 1000000;
     i.innerHTML +=
-      '<style>.hidden{ visibility: hidden; } @media (max-width:444px) { #ntbot-plugin-script{ width:100%!important;height:calc(100% - 110px)!important;right:0px!important; }}</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" class="hidden" style="position:fixed!important;right:24px;bottom:110px!important;width:420px;min-height:200px;max-height:750px;" ><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
+      '<style>.hidden{ visibility: hidden; } @media (max-width:444px) { #ntbot-plugin-script{ width:100%!important;height:calc(100% - 110px)!important;right:0px!important; }}</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" class="hidden" style="position:fixed!important;right:24px;bottom:110px!important;width:420px;min-height:200px;max-height:750px;height: calc(100% - 110px);" ><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
     var t = document.getElementById("ntbot-script-iframe"),
       r = !1,
       o = function () {
