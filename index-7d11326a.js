@@ -907,6 +907,7 @@ Error generating stack: `+o.message+`
 				align-items: center;
 				justify-content: center;
 				cursor: pointer;
+				border: none;
 				img {
 					object-fit: cover;
 				}
