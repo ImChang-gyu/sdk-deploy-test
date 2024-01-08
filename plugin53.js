@@ -20,7 +20,7 @@
         var e = t.contentDocument || t.contentWindow.document;
         e.open(),
           e.write(
-            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/index-a6155ec2.js" charset="UTF-8"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/index-d2b85b25.css">'
+            '<!DOCTYPE html><script async type="module" src="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/index-74f5e589.js" charset="UTF-8"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ImChang-gyu/sdk-deploy-test/index-d2b85b25.css">'
           ),
           e.write(
             '<html lang="ko"><head><meta charset="utf-8"></head><body><div id="root"></div></body></html>'
