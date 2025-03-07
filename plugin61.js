@@ -6,15 +6,15 @@
       e
     ) && window.navigator.cookieEnabled)
   ) {
-    if (!document.getElementById('ntbot-plugin')) {
+    if (!document.getElementById('chatbot-plugin')) {
       var n = document.createElement('div');
-      (n.id = 'ntbot-plugin'), document.body.appendChild(n);
+      (n.id = 'chatbot-plugin'), document.body.appendChild(n);
     }
-    var i = document.getElementById('ntbot-plugin');
+    var i = document.getElementById('chatbot-plugin');
     i.style.zIndex = 1000000;
     i.innerHTML +=
-      '<style>.hidden{ visibility: hidden; } @media (max-width:444px) { #ntbot-plugin-script{ width:100%!important;height:calc(100% - 110px)!important;right:0px!important; }}</style><div class="ntbot-entry"></div><div id="ntbot-plugin-script" class="hidden" style="position:fixed!important;right:24px;bottom:110px!important;width:420px;min-height:200px;max-height:750px;height: calc(100% - 110px);" ><iframe id="ntbot-script-iframe" title="Ntbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
-    var t = document.getElementById('ntbot-script-iframe'),
+      '<style>.hidden{ visibility: hidden; } @media (max-width:444px) { #chatbot-plugin-script{ width:100%!important;height:calc(100% - 110px)!important;right:0px!important; }}</style><div class="chatbot-entry"></div><div id="chatbot-plugin-script" class="hidden" style="position:fixed!important;right:24px;bottom:110px!important;width:420px;min-height:200px;max-height:750px;height: calc(100% - 110px);" ><iframe id="chatbot-script-iframe" title="chatbot" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div>';
+    var t = document.getElementById('chatbot-script-iframe'),
       r = !1,
       o = function () {
         var e = t.contentDocument || t.contentWindow.document;
